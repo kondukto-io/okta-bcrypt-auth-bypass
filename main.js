@@ -17,7 +17,7 @@ var validInput = userid + username + password;
 
 // simulate bypass input -- can be anything
 var password2 = "AAAAAAAAAAAAAAAAAAA"
-var bypassInput = userid + username + password;
+var bypassInput = userid + username + password2;
 
 bcrypt.genSalt(saltRounds, function(err, salt) {
 	bcrypt.hash(validInput, salt, function(err, hash) {
