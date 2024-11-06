@@ -1,4 +1,6 @@
-This repository demonstrates the Okta bcrypt authentication bypass vulnerability disclosed by Okta on October 30, 2024.
+This repository demonstrates the bcrypt authentication bypass vulnerability disclosed by Okta on October 30, 2024.
+
+Read the full blog post [here](https://kondukto.io/blog/okta-vulnerability-bcrypt-auth) for details.
 
 When the first 72 bytes of two different inputs are identical, they produce the same hash.
 
